@@ -153,3 +153,8 @@ projects/*/solution/demo-output/
 *.pt
 *.pth
 *.safetensors
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
